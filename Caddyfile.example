@@ -1,0 +1,46 @@
+# Example Caddyfile for ChefMate production deployment.
+# Replace chefmate.example.com with your real custom domain.
+
+chefmate.example.com {
+    # Force HTTPS (Caddy does this automatically, but be explicit)
+    encode gzip zstd
+
+    # Security headers (also set by Next.js, but defense in depth at the proxy)
+    header {
+        Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
+        X-Content-Type-Options "nosniff"
+        X-Frame-Options "DENY"
+        Referrer-Policy "strict-origin-when-cross-origin"
+        Permissions-Policy "camera=(), microphone=(), geolocation=(), browsing-topics=()"
+        Cross-Origin-Opener-Policy "same-origin"
+        Cross-Origin-Resource-Policy "same-origin"
+        # Remove server version header
+        -Server
+    }
+
+    # Reverse proxy to the Next.js standalone server
+    reverse_proxy localhost:3000 {
+        header_up Host {host}
+        header_up X-Forwarded-For {remote_host}
+        header_up X-Forwarded-Proto {scheme}
+        header_up X-Real-IP {remote_host}
+    }
+
+    # Static asset caching
+    @static path /_next/static/* /favicon.svg /manifest.webmanifest
+    handle @static {
+        header Cache-Control "public, max-age=31536000, immutable"
+        reverse_proxy localhost:3000
+    }
+
+    # Block access to sensitive paths
+    @blocked path /.env /.git/* /db/* /logs/* /prisma/dev.db /scripts/*
+    handle @blocked {
+        respond 404
+    }
+}
+
+# Redirect HTTP to HTTPS
+http://chefmate.example.com {
+    redir https://chefmate.example.com{uri} 301
+}

@@ -1,0 +1,63 @@
+# dependencies
+node_modules
+.pnp
+.pnp.js
+
+# next.js
+.next/
+out/
+build/
+dist/
+
+# production
+server.js
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dev.log
+server.log
+
+# local env files
+.env
+.env*.local
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# database
+db/*.db
+db/*.db-journal
+prisma/dev.db
+prisma/migrations/dev/
+
+# logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# vercel
+.vercel
+
+# z-ai
+.zscripts/
+
+.vercel
+
+# Generated env/deployment files
+.env.production
+.env.vercel
+.env.production.local
+ENV_TO_IMPORT.txt
+setup-vercel-env.ps1
+VERCEL_QUICK_START.txt
+VERCEL_ENV_SETUP.md

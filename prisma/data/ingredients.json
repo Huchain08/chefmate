@@ -1,0 +1,825 @@
+[
+  {
+    "slug": "onion",
+    "name": "Onion",
+    "category": "vegetable",
+    "unit": "piece",
+    "caloriesPerUnit": 40,
+    "proteinG": 1,
+    "carbsG": 9,
+    "fatG": 0
+  },
+  {
+    "slug": "tomato",
+    "name": "Tomato",
+    "category": "vegetable",
+    "unit": "piece",
+    "caloriesPerUnit": 18,
+    "proteinG": 0.9,
+    "carbsG": 3.9,
+    "fatG": 0.2
+  },
+  {
+    "slug": "ginger",
+    "name": "Ginger",
+    "category": "spice",
+    "unit": "cm"
+  },
+  {
+    "slug": "garlic",
+    "name": "Garlic",
+    "category": "spice",
+    "unit": "clove"
+  },
+  {
+    "slug": "green-chili",
+    "name": "Green Chili",
+    "category": "spice",
+    "unit": "piece"
+  },
+  {
+    "slug": "cumin-seeds",
+    "name": "Cumin Seeds",
+    "category": "spice",
+    "unit": "teaspoon"
+  },
+  {
+    "slug": "mustard-seeds",
+    "name": "Mustard Seeds",
+    "category": "spice",
+    "unit": "teaspoon"
+  },
+  {
+    "slug": "turmeric-powder",
+    "name": "Turmeric Powder",
+    "category": "spice",
+    "unit": "teaspoon"
+  },
+  {
+    "slug": "red-chili-powder",
+    "name": "Red Chili Powder",
+    "category": "spice",
+    "unit": "teaspoon"
+  },
+  {
+    "slug": "coriander-powder",
+    "name": "Coriander Powder",
+    "category": "spice",
+    "unit": "teaspoon"
+  },
+  {
+    "slug": "garam-masala",
+    "name": "Garam Masala",
+    "category": "spice",
+    "unit": "teaspoon"
+  },
+  {
+    "slug": "salt",
+    "name": "Salt",
+    "category": "spice",
+    "unit": "teaspoon"
+  },
+  {
+    "slug": "oil",
+    "name": "Oil",
+    "category": "fat",
+    "unit": "tablespoon",
+    "caloriesPerUnit": 120,
+    "fatG": 14
+  },
+  {
+    "slug": "ghee",
+    "name": "Ghee",
+    "category": "fat",
+    "unit": "tablespoon",
+    "caloriesPerUnit": 120,
+    "fatG": 14
+  },
+  {
+    "slug": "rice",
+    "name": "Rice",
+    "category": "grain",
+    "unit": "cup",
+    "caloriesPerUnit": 200,
+    "proteinG": 4,
+    "carbsG": 45,
+    "fatG": 0.5
+  },
+  {
+    "slug": "wheat-flour",
+    "name": "Wheat Flour",
+    "category": "grain",
+    "unit": "cup",
+    "caloriesPerUnit": 400,
+    "proteinG": 12,
+    "carbsG": 88,
+    "fatG": 2
+  },
+  {
+    "slug": "curd",
+    "name": "Curd",
+    "category": "dairy",
+    "unit": "cup",
+    "caloriesPerUnit": 100,
+    "proteinG": 8,
+    "carbsG": 8,
+    "fatG": 4
+  },
+  {
+    "slug": "paneer",
+    "name": "Paneer",
+    "category": "dairy",
+    "unit": "gram",
+    "caloriesPerUnit": 2.65,
+    "proteinG": 0.18,
+    "carbsG": 0.02,
+    "fatG": 0.2
+  },
+  {
+    "slug": "chicken",
+    "name": "Chicken",
+    "category": "meat",
+    "unit": "gram",
+    "caloriesPerUnit": 1.65,
+    "proteinG": 0.31,
+    "carbsG": 0,
+    "fatG": 0.04
+  },
+  {
+    "slug": "lentils",
+    "name": "Lentils",
+    "category": "pulse",
+    "unit": "cup",
+    "caloriesPerUnit": 230,
+    "proteinG": 18,
+    "carbsG": 40,
+    "fatG": 1
+  },
+  {
+    "slug": "potato",
+    "name": "Potato",
+    "category": "vegetable",
+    "unit": "piece",
+    "caloriesPerUnit": 130,
+    "proteinG": 3,
+    "carbsG": 30,
+    "fatG": 0
+  },
+  {
+    "slug": "coriander-leaves",
+    "name": "Coriander Leaves",
+    "category": "herb",
+    "unit": "tablespoon"
+  },
+  {
+    "slug": "curry-leaves",
+    "name": "Curry Leaves",
+    "category": "herb",
+    "unit": "sprig"
+  },
+  {
+    "slug": "coconut",
+    "name": "Coconut",
+    "category": "fruit",
+    "unit": "cup",
+    "caloriesPerUnit": 280,
+    "fatG": 27
+  },
+  {
+    "slug": "tamarind",
+    "name": "Tamarind",
+    "category": "fruit",
+    "unit": "tablespoon"
+  },
+  {
+    "slug": "jaggery",
+    "name": "Jaggery",
+    "category": "sweetener",
+    "unit": "tablespoon",
+    "caloriesPerUnit": 60,
+    "carbsG": 15
+  },
+  {
+    "slug": "urad-dal",
+    "name": "Urad Dal",
+    "category": "pulse",
+    "unit": "cup",
+    "caloriesPerUnit": 340,
+    "proteinG": 25,
+    "carbsG": 60
+  },
+  {
+    "slug": "chana-dal",
+    "name": "Chana Dal",
+    "category": "pulse",
+    "unit": "cup",
+    "caloriesPerUnit": 350,
+    "proteinG": 22,
+    "carbsG": 60
+  },
+  {
+    "slug": "toor-dal",
+    "name": "Toor Dal",
+    "category": "pulse",
+    "unit": "cup",
+    "caloriesPerUnit": 340,
+    "proteinG": 22,
+    "carbsG": 60
+  },
+  {
+    "slug": "spinach",
+    "name": "Spinach",
+    "category": "vegetable",
+    "unit": "cup",
+    "caloriesPerUnit": 7,
+    "proteinG": 1,
+    "carbsG": 1
+  },
+  {
+    "slug": "peas",
+    "name": "Peas",
+    "category": "vegetable",
+    "unit": "cup",
+    "caloriesPerUnit": 110,
+    "proteinG": 8,
+    "carbsG": 20
+  },
+  {
+    "slug": "carrot",
+    "name": "Carrot",
+    "category": "vegetable",
+    "unit": "piece",
+    "caloriesPerUnit": 40,
+    "carbsG": 9
+  },
+  {
+    "slug": "beans",
+    "name": "Beans",
+    "category": "vegetable",
+    "unit": "cup",
+    "caloriesPerUnit": 30,
+    "proteinG": 2,
+    "carbsG": 7
+  },
+  {
+    "slug": "cauliflower",
+    "name": "Cauliflower",
+    "category": "vegetable",
+    "unit": "cup",
+    "caloriesPerUnit": 25,
+    "carbsG": 5
+  },
+  {
+    "slug": "egg",
+    "name": "Egg",
+    "category": "dairy",
+    "unit": "piece",
+    "caloriesPerUnit": 70,
+    "proteinG": 6,
+    "fatG": 5
+  },
+  {
+    "slug": "milk",
+    "name": "Milk",
+    "category": "dairy",
+    "unit": "cup",
+    "caloriesPerUnit": 150,
+    "proteinG": 8,
+    "fatG": 8
+  },
+  {
+    "slug": "butter",
+    "name": "Butter",
+    "category": "fat",
+    "unit": "tablespoon",
+    "caloriesPerUnit": 100,
+    "fatG": 12
+  },
+  {
+    "slug": "cream",
+    "name": "Cream",
+    "category": "dairy",
+    "unit": "tablespoon",
+    "caloriesPerUnit": 50,
+    "fatG": 5
+  },
+  {
+    "slug": "cinnamon",
+    "name": "Cinnamon",
+    "category": "spice",
+    "unit": "piece"
+  },
+  {
+    "slug": "cardamom",
+    "name": "Cardamom",
+    "category": "spice",
+    "unit": "piece"
+  },
+  {
+    "slug": "cloves",
+    "name": "Cloves",
+    "category": "spice",
+    "unit": "piece"
+  },
+  {
+    "slug": "bay-leaf",
+    "name": "Bay Leaf",
+    "category": "spice",
+    "unit": "piece"
+  },
+  {
+    "slug": "fenugreek-leaves",
+    "name": "Fenugreek Leaves",
+    "category": "herb",
+    "unit": "tablespoon"
+  },
+  {
+    "slug": "asafoetida",
+    "name": "Asafoetida",
+    "category": "spice",
+    "unit": "pinch"
+  },
+  {
+    "slug": "semolina",
+    "name": "Semolina",
+    "category": "grain",
+    "unit": "cup",
+    "caloriesPerUnit": 600,
+    "carbsG": 120
+  },
+  {
+    "slug": "mustard-oil",
+    "name": "Mustard Oil",
+    "category": "fat",
+    "unit": "tablespoon",
+    "caloriesPerUnit": 120,
+    "fatG": 14
+  },
+  {
+    "slug": "lemon",
+    "name": "Lemon",
+    "category": "fruit",
+    "unit": "piece"
+  },
+  {
+    "slug": "mint-leaves",
+    "name": "Mint Leaves",
+    "category": "herb",
+    "unit": "tablespoon"
+  },
+  {
+    "slug": "cashew",
+    "name": "Cashew",
+    "category": "nut",
+    "unit": "tablespoon",
+    "caloriesPerUnit": 90,
+    "fatG": 8
+  },
+  {
+    "slug": "raisins",
+    "name": "Raisins",
+    "category": "fruit",
+    "unit": "tablespoon",
+    "caloriesPerUnit": 30,
+    "carbsG": 8
+  },
+  {
+    "slug": "saffron",
+    "name": "Saffron",
+    "category": "spice",
+    "unit": "pinch"
+  },
+  {
+    "slug": "bread",
+    "name": "Bread",
+    "category": "grain",
+    "unit": "slice",
+    "caloriesPerUnit": 80
+  },
+  {
+    "slug": "gram-flour",
+    "name": "Gram Flour",
+    "category": "grain",
+    "unit": "cup",
+    "caloriesPerUnit": 400,
+    "proteinG": 22
+  },
+  {
+    "slug": "rice-flour",
+    "name": "Rice Flour",
+    "category": "grain",
+    "unit": "cup",
+    "caloriesPerUnit": 580,
+    "carbsG": 120
+  },
+  {
+    "slug": "tea-bag",
+    "name": "Tea Bag",
+    "category": "other",
+    "unit": "piece"
+  },
+  {
+    "slug": "poha",
+    "name": "Poha (Flattened Rice)",
+    "category": "grain",
+    "unit": "cup",
+    "caloriesPerUnit": 270
+  },
+  {
+    "slug": "rajma",
+    "name": "Rajma (Kidney Beans)",
+    "category": "pulse",
+    "unit": "cup",
+    "caloriesPerUnit": 340,
+    "proteinG": 22
+  },
+  {
+    "slug": "bhindi",
+    "name": "Bhindi (Okra)",
+    "category": "vegetable",
+    "unit": "gram",
+    "caloriesPerUnit": 0.33
+  },
+  {
+    "slug": "amchur",
+    "name": "Amchur (Mango Powder)",
+    "category": "spice",
+    "unit": "teaspoon"
+  },
+  {
+    "slug": "baking-soda",
+    "name": "Baking Soda",
+    "category": "other",
+    "unit": "teaspoon"
+  },
+  {
+    "slug": "milk-powder",
+    "name": "Milk Powder",
+    "category": "dairy",
+    "unit": "cup",
+    "caloriesPerUnit": 480
+  },
+  {
+    "slug": "fish",
+    "name": "Fish",
+    "category": "seafood",
+    "unit": "gram",
+    "caloriesPerUnit": 1.5,
+    "proteinG": 0.25
+  },
+  {
+    "slug": "sambhar-powder",
+    "name": "Sambhar Powder",
+    "category": "spice",
+    "unit": "tablespoon"
+  },
+  {
+    "slug": "pav-bun",
+    "name": "Pav Bun",
+    "category": "grain",
+    "unit": "piece",
+    "caloriesPerUnit": 200
+  },
+  {
+    "slug": "spaghetti",
+    "name": "Spaghetti",
+    "category": "grain",
+    "unit": "gram",
+    "caloriesPerUnit": 3.5,
+    "carbsG": 0.75
+  },
+  {
+    "slug": "olive-oil",
+    "name": "Olive Oil",
+    "category": "fat",
+    "unit": "tablespoon",
+    "caloriesPerUnit": 120,
+    "fatG": 14
+  },
+  {
+    "slug": "chili-flakes",
+    "name": "Chili Flakes",
+    "category": "spice",
+    "unit": "teaspoon"
+  },
+  {
+    "slug": "parsley",
+    "name": "Parsley",
+    "category": "herb",
+    "unit": "tablespoon"
+  },
+  {
+    "slug": "pizza-dough",
+    "name": "Pizza Dough",
+    "category": "grain",
+    "unit": "gram"
+  },
+  {
+    "slug": "mozzarella",
+    "name": "Mozzarella",
+    "category": "dairy",
+    "unit": "gram"
+  },
+  {
+    "slug": "basil",
+    "name": "Basil",
+    "category": "herb",
+    "unit": "leaf"
+  },
+  {
+    "slug": "ground-beef",
+    "name": "Ground Beef",
+    "category": "meat",
+    "unit": "gram",
+    "caloriesPerUnit": 2.5,
+    "proteinG": 0.26,
+    "fatG": 0.17
+  },
+  {
+    "slug": "tortilla",
+    "name": "Tortilla",
+    "category": "grain",
+    "unit": "piece",
+    "caloriesPerUnit": 150
+  },
+  {
+    "slug": "cumin-powder",
+    "name": "Cumin Powder",
+    "category": "spice",
+    "unit": "teaspoon"
+  },
+  {
+    "slug": "paprika",
+    "name": "Paprika",
+    "category": "spice",
+    "unit": "teaspoon"
+  },
+  {
+    "slug": "lime",
+    "name": "Lime",
+    "category": "fruit",
+    "unit": "piece"
+  },
+  {
+    "slug": "rice-noodles",
+    "name": "Rice Noodles",
+    "category": "grain",
+    "unit": "gram"
+  },
+  {
+    "slug": "shrimp",
+    "name": "Shrimp",
+    "category": "seafood",
+    "unit": "gram",
+    "caloriesPerUnit": 1,
+    "proteinG": 0.24
+  },
+  {
+    "slug": "fish-sauce",
+    "name": "Fish Sauce",
+    "category": "sauce",
+    "unit": "tablespoon"
+  },
+  {
+    "slug": "palm-sugar",
+    "name": "Palm Sugar",
+    "category": "sweetener",
+    "unit": "tablespoon"
+  },
+  {
+    "slug": "peanut",
+    "name": "Peanut",
+    "category": "nut",
+    "unit": "tablespoon",
+    "caloriesPerUnit": 90,
+    "fatG": 8
+  },
+  {
+    "slug": "shallot",
+    "name": "Shallot",
+    "category": "vegetable",
+    "unit": "piece"
+  },
+  {
+    "slug": "soy-sauce",
+    "name": "Soy Sauce",
+    "category": "sauce",
+    "unit": "tablespoon"
+  },
+  {
+    "slug": "sesame-oil",
+    "name": "Sesame Oil",
+    "category": "fat",
+    "unit": "teaspoon"
+  },
+  {
+    "slug": "spring-onion",
+    "name": "Spring Onion",
+    "category": "vegetable",
+    "unit": "piece"
+  },
+  {
+    "slug": "romaine-lettuce",
+    "name": "Romaine Lettuce",
+    "category": "vegetable",
+    "unit": "head"
+  },
+  {
+    "slug": "parmesan",
+    "name": "Parmesan",
+    "category": "dairy",
+    "unit": "gram"
+  },
+  {
+    "slug": "egg-yolk",
+    "name": "Egg Yolk",
+    "category": "dairy",
+    "unit": "piece"
+  },
+  {
+    "slug": "anchovy",
+    "name": "Anchovy",
+    "category": "seafood",
+    "unit": "piece"
+  },
+  {
+    "slug": "mustard",
+    "name": "Mustard",
+    "category": "sauce",
+    "unit": "teaspoon"
+  },
+  {
+    "slug": "black-pepper",
+    "name": "Black Pepper",
+    "category": "spice",
+    "unit": "teaspoon"
+  },
+  {
+    "slug": "sushi-rice",
+    "name": "Sushi Rice",
+    "category": "grain",
+    "unit": "cup"
+  },
+  {
+    "slug": "nori",
+    "name": "Nori",
+    "category": "vegetable",
+    "unit": "sheet"
+  },
+  {
+    "slug": "rice-vinegar",
+    "name": "Rice Vinegar",
+    "category": "sauce",
+    "unit": "tablespoon"
+  },
+  {
+    "slug": "sugar",
+    "name": "Sugar",
+    "category": "sweetener",
+    "unit": "teaspoon"
+  },
+  {
+    "slug": "cucumber",
+    "name": "Cucumber",
+    "category": "vegetable",
+    "unit": "piece"
+  },
+  {
+    "slug": "avocado",
+    "name": "Avocado",
+    "category": "fruit",
+    "unit": "piece"
+  },
+  {
+    "slug": "salmon",
+    "name": "Salmon",
+    "category": "seafood",
+    "unit": "gram"
+  },
+  {
+    "slug": "wasabi",
+    "name": "Wasabi",
+    "category": "spice",
+    "unit": "teaspoon"
+  },
+  {
+    "slug": "red-onion",
+    "name": "Red Onion",
+    "category": "vegetable",
+    "unit": "piece"
+  },
+  {
+    "slug": "feta",
+    "name": "Feta",
+    "category": "dairy",
+    "unit": "gram"
+  },
+  {
+    "slug": "kalamata-olive",
+    "name": "Kalamata Olive",
+    "category": "fruit",
+    "unit": "cup"
+  },
+  {
+    "slug": "oregano",
+    "name": "Oregano",
+    "category": "herb",
+    "unit": "teaspoon"
+  },
+  {
+    "slug": "burger-bun",
+    "name": "Burger Bun",
+    "category": "grain",
+    "unit": "piece"
+  },
+  {
+    "slug": "cheddar",
+    "name": "Cheddar",
+    "category": "dairy",
+    "unit": "slice"
+  },
+  {
+    "slug": "lettuce",
+    "name": "Lettuce",
+    "category": "vegetable",
+    "unit": "leaf"
+  },
+  {
+    "slug": "maple-syrup",
+    "name": "Maple Syrup",
+    "category": "sweetener",
+    "unit": "tablespoon"
+  },
+  {
+    "slug": "mushroom",
+    "name": "Mushroom",
+    "category": "vegetable",
+    "unit": "gram"
+  },
+  {
+    "slug": "lemongrass",
+    "name": "Lemongrass",
+    "category": "herb",
+    "unit": "stalk"
+  },
+  {
+    "slug": "galangal",
+    "name": "Galangal",
+    "category": "spice",
+    "unit": "slice"
+  },
+  {
+    "slug": "lime-leaf",
+    "name": "Lime Leaf",
+    "category": "herb",
+    "unit": "piece"
+  },
+  {
+    "slug": "water",
+    "name": "Water",
+    "category": "other",
+    "unit": "cup"
+  },
+  {
+    "slug": "beef-broth",
+    "name": "Beef Broth",
+    "category": "other",
+    "unit": "cup"
+  },
+  {
+    "slug": "thyme",
+    "name": "Thyme",
+    "category": "herb",
+    "unit": "teaspoon"
+  },
+  {
+    "slug": "gruyere",
+    "name": "Gruyere",
+    "category": "dairy",
+    "unit": "gram"
+  },
+  {
+    "slug": "bell-pepper",
+    "name": "Bell Pepper",
+    "category": "vegetable",
+    "unit": "piece"
+  },
+  {
+    "slug": "dill",
+    "name": "Dill",
+    "category": "herb",
+    "unit": "tablespoon"
+  },
+  {
+    "slug": "ramen-noodles",
+    "name": "Ramen Noodles",
+    "category": "grain",
+    "unit": "gram"
+  },
+  {
+    "slug": "mirin",
+    "name": "Mirin",
+    "category": "sauce",
+    "unit": "tablespoon"
+  }
+]

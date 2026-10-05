@@ -1,0 +1,7 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Yellow background -->
+  <rect width="200" height="200" fill="#FFED4E"/>
+  
+  <!-- Teal "C" for ChefMate -->
+  <text x="100" y="130" font-family="system-ui, -apple-system, sans-serif" font-size="120" font-weight="700" fill="#0f766e" text-anchor="middle">C</text>
+</svg>
